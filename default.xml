@@ -38,7 +38,7 @@
   <project path="build" name="android_build" remote="ls" revision="lollipop">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="ls" revision="lollipop"/>
+  <project path="android" name="android-armv7a-belalang-tempur/android-lq" remote="gh" revision="lollipop" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -500,5 +500,5 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="lollipop"/>
+  <project path="vendor/liquid" name="android-armv7a-belalang-tempur/android_vendor_liquid" remote="gh" revision="lollipop"/>
 </manifest>
