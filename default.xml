@@ -35,7 +35,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="CyanogenMod/android_build" >
+  <project path="build" name="android_build" remote="ls" revision="lollipop">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android-armv7a-belalang-tempur/android-lq" remote="gh" revision="lollipop" />
